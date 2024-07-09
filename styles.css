@@ -11,13 +11,13 @@ body {
 }
 
 header {
-    font-family:"Poppins", sans-serif;
+    font-family:"Rubik Mono One", monospace;
     margin-top: 20px;
     position: relative;
 }
 
 .pInicio {
-    font-family:"Poppins", sans-serif;
+    font-family:"Gloria Hallelujah", cursive;
     font-size: large;
 }
 
@@ -113,4 +113,42 @@ section {
     color: #bbb;
     text-decoration: none;
     cursor: pointer;
+}
+
+.rubik-mono-one-regular {
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.title {
+    font-family: "Rubik Mono One", monospace;
+}
+
+.gloria-hallelujah-regular {
+    font-family: "Gloria Hallelujah", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+/* Container to hold the image and paragraph */
+.container {
+    display: flex;
+    align-items: center; /* Align items vertically center */
+    margin-bottom: 20px; /* Space between containers */
+}
+
+/* Style for the image */
+.container img {
+    border-radius: 50%; /* Make the image round */
+    width: 200px; /* Set the width of the image */
+    height: 200px; /* Set the height of the image */
+    object-fit: cover; /* Ensure the image covers the entire area */
+    margin-right: 20px; /* Space between image and paragraph */
+}
+
+/* Style for the paragraph */
+.container p {
+    flex: 1; /* Allow the paragraph to take the remaining space */
+    margin: 0; /* Remove default margin */
 }
