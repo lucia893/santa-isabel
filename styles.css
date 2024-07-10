@@ -106,7 +106,6 @@ section {
 
 .btnC {
     background-color: green;
-    font-family: "Gloria Hallelujah", cursive;
     color: white;
     border: none;
     border-radius: 50px;
@@ -114,8 +113,16 @@ section {
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    display: inline-block;
+    display: inline-blocknone;
     margin: 10px 0;
+    text-decoration: none;
+    text-align: center;
+}
+
+.btnC a {
+    color: white;
+    text-decoration: none;
+    display: block;
 }
 
 .btnC:hover {
@@ -209,4 +216,18 @@ section {
     .responsive-iframe {
         height: 60vh;
     }
+}
+
+.two-columns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.column {
+    flex: 1;
+    min-width: 300px;
+}
+
+.esconder {
+    display: none;
 }
