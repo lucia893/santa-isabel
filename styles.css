@@ -4,7 +4,8 @@ body, h1, h2, p, ul, li {
 }
 
 body {
-    font-family:"Poppins", sans-serif;
+    font-family:"Gloria Hallelujah", cursive;
+    font-size: large;
     background-color: rgb(167, 226, 244);
     line-height: 1.5;
     text-align: center;
