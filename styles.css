@@ -63,6 +63,7 @@ section {
 
 .gallery {
     display: flex;
+    top: 10%;
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
@@ -127,13 +128,14 @@ section {
 }
 .map-container {
     position: relative;
-    width: 100%;
+    width: 70%;
     height: 0;
+    left: 15%;
     padding-bottom: 56.25%; /* 16:9 aspect ratio */
 }
 .map-container iframe {
     position: absolute;
-    top: 0;
+    top: 5%;
     left: 0;
     width: 100%;
     height: 100%;
@@ -141,7 +143,7 @@ section {
 }
 
 .listaContacto {
-    align-items: left;
+    text-align: left;
 }
 .gloria-hallelujah-regular {
     font-family: "Gloria Hallelujah", cursive;
