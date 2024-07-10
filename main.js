@@ -20,4 +20,13 @@ document.addEventListener('DOMContentLoaded', function() {
             lightbox.style.display = 'none';
         }
     });
+    
+    const buttons = document.querySelectorAll(".btnC");
+    const hiddenDivs = document.querySelectorAll(".esconder");
+
+    buttons.forEach((button, index) => {
+        button.addEventListener("click", () => {
+            hiddenDivs[index].style.display = hiddenDivs[index].style.display === "none" ? "block" : "none";
+        });
+    });
 });
