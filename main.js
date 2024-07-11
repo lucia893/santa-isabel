@@ -20,13 +20,11 @@ document.addEventListener('DOMContentLoaded', function() {
             lightbox.style.display = 'none';
         }
     });
-    
-    const buttons = document.querySelectorAll(".btnC");
-    const hiddenDivs = document.querySelectorAll(".esconder");
 
-    buttons.forEach((button, index) => {
-        button.addEventListener("click", () => {
-            hiddenDivs[index].style.display = hiddenDivs[index].style.display === "none" ? "block" : "none";
-        });
+    const btnQuieroAyudar = document.getElementById("btnQuieroAyudar");
+    const formSection = document.getElementById("formSection");
+
+    btnQuieroAyudar.addEventListener("click", function() {
+        formSection.style.display = formSection.style.display === "none" || formSection.style.display === "" ? "block" : "none";
     });
 });
