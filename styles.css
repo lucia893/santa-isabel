@@ -226,6 +226,11 @@ section {
     height: auto;
 }
 
+#ayuda {
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
 .northlandsFoto {
     margin-top: 5%; /* Adjust the margin as necessary */
 }
