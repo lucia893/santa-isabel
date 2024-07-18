@@ -18,7 +18,7 @@ header {
 }
 
 .pInicio {
-    font-family:"quicksand-d", cursive;
+    font-family:"quicksand-d";
     font-size: large;
 }
 
@@ -232,20 +232,13 @@ section {
 }
 
 .northlandsFoto {
-    margin-top: 5%; /* Adjust the margin as necessary */
+    margin-top: 5%;
+    margin-bottom: 0%; /* Adjust the margin as necessary */
 }
 
-.northlandsFoto1 {
-    margin-top: 1%;
-    padding: 0%;
-}
-
-.northlandsFoto1 img {
-    height: auto;
-    padding: 0%;
-}
 
 .northlandsFoto img {
+    max-width: 80%;
     height: auto;
 }
 
