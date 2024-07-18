@@ -4,7 +4,7 @@ body, h1, h2, p, ul, li {
 }
 
 body {
-    font-family:"Gloria Hallelujah", cursive;
+    font-family:"quicksand-d", cursive;
     font-size: large;
     background-color: rgb(167, 226, 244);
     line-height: 1.5;
@@ -18,7 +18,7 @@ header {
 }
 
 .pInicio {
-    font-family:"Gloria Hallelujah", cursive;
+    font-family:"quicksand-d", cursive;
     font-size: large;
 }
 
@@ -108,7 +108,7 @@ section {
 
 .btnC {
     background-color: green;
-    font-family: "Gloria Hallelujah", cursive;
+    font-family: "quicksand-d", cursive;
     color: white;
     border: none;
     border-radius: 50px;
@@ -178,7 +178,7 @@ section {
     text-align: left;
 }
 .gloria-hallelujah-regular {
-    font-family: "Gloria Hallelujah", cursive;
+    font-family: ""Gloria Hallelujah", cursive";
     font-weight: 400;
     font-style: normal;
   }
@@ -227,12 +227,21 @@ section {
 }
 
 #ayuda {
-    margin-top: 5%;
+    margin-top: 0%;
     margin-bottom: 2%;
 }
 
 .northlandsFoto {
     margin-top: 5%; /* Adjust the margin as necessary */
+}
+
+.northlandsFoto1 {
+    margin-top: 1%;
+}
+
+.northlandsFoto1 img {
+    max-width: 80%;
+    height: auto;
 }
 
 .northlandsFoto img {
@@ -248,3 +257,10 @@ section {
 .esconder {
     display: none;
 }
+
+.quicksand-d {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
