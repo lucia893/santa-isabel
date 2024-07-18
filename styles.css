@@ -237,15 +237,15 @@ section {
 
 .northlandsFoto1 {
     margin-top: 1%;
+    padding: 0%;
 }
 
 .northlandsFoto1 img {
-    max-width: 80%;
     height: auto;
+    padding: 0%;
 }
 
 .northlandsFoto img {
-    max-width: 80%; /* Ensure the image fits within the column */
     height: auto;
 }
 
