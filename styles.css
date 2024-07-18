@@ -250,8 +250,7 @@ section {
 }
 
 .salonFoto img {
-    max-width: 50%;
-    border-radius: 30%;
+    max-width: 60%;
 }
 
 .esconder {
