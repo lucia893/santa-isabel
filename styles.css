@@ -1,24 +1,27 @@
+
 body, h1, h2, p, ul, li {
     margin: 0;
     padding: 0;
 }
 
 body {
-    font-family:"Roboto", sans-serif;
+    font-family:"Quicksand", sans-serif;
     font-size: large;
     background-color: rgb(167, 226, 244);
     line-height: 1.5;
     text-align: center;
 }
 
+
 header {
-    font-family:"Rubik Mono One", monospace;
+    font-family:"Comfortaa", sans-serif;
     margin-top: 20px;
     position: relative;
+    font-weight: bold;
 }
 
 .pInicio {
-    font-family:"Roboto", sans-serif;
+    font-family:"Quicksand", sans-serif;
     font-size: large;
 }
 
@@ -108,7 +111,7 @@ section {
 
 .btnC {
     background-color: green;
-    font-family: "Roboto", sans-serif;
+    font-family: "Quicksand", sans-serif;
     color: white;
     border: none;
     border-radius: 50px;
@@ -156,7 +159,7 @@ section {
   }
   
 .title {
-    font-family: "Rubik Mono One", monospace;
+    font-family: "Comfortaa", sans-serif;
 }
 .map-container {
     position: relative;
@@ -238,7 +241,7 @@ section {
 
 
 .northlandsFoto img {
-    max-width: 80%;
+    max-width: 100%;
     height: auto;
 }
 
@@ -325,3 +328,9 @@ section {
     font-style: italic;
   }
   
+  .comfortaa-1 {
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
