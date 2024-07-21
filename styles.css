@@ -215,22 +215,15 @@ section {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    margin-bottom: 0%;
 }
 .column {
     flex: 1;
     min-width: 300px;
 }
 
-.column1 {
-    flex: 1;
-    margin-top: 7%;
-    text-align: left;
-}
-
-
 .castoresFoto {
     margin-top: 5%;
-    margin-bottom: 5%;
 }
 
 .castoresFoto img {
@@ -258,6 +251,11 @@ section {
     max-width: 60%;
 }
 
+#cuadrotexto {
+    margin-bottom: 5%;
+    background-color:  rgb(167, 226, 244);
+}
+
 .esconder {
     display: none;
 }
@@ -266,6 +264,10 @@ footer {
     background-color: #cff2fc;
     text-align: center;
     padding: 1em;
+}
+
+#ayuda {
+    font-size: 120%;
 }
 
 /*gallery styles*/
