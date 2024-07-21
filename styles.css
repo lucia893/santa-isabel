@@ -53,11 +53,18 @@ nav ul li a {
 
 nav ul li a:hover {
     text-decoration: underline;
+    color: #105517;
 }
 
 main {
     padding: 20px;
 }
+
+#espacio {
+    margin-top: 2%;
+}
+
+
 
 section {
     padding: 20px;
@@ -240,6 +247,11 @@ section {
 .northlandsFoto img {
     max-width: 100%;
     height: auto;
+}
+
+.salonFoto {
+    margin-bottom: 10%;
+    margin-top: 3%;
 }
 
 .salonFoto img {
